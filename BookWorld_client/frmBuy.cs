@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookWorldAdmin
+namespace BookWorld_client
 {
-    public partial class AdminWelcome : Form
+    public partial class frmBuy : Form
     {
-        public AdminWelcome()
+        public frmBuy()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
